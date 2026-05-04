@@ -67,48 +67,12 @@
 
 /*コンセプト*/
 .concept-wrapper{
-
+    background-image: url("../img/item1.png");
     opacity: 0.8;
     background-size: cover;
     height:600px;
     position: relative;
     z-index: 1;
-
-/*背景チェンジ*/
-    animation: fadeBg 16s infinite;
-
-}
-
-@keyframes fadeBg {
-  0% {
-    background-image: url("item1.png");
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  26% {
-    background-image: url("item2.png");
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  51% {
-    background-image: url("item3.png");
-    opacity: 1;
-  }
-  75% {
-    opacity: 0;
-  }
-  76% {
-    background-image: url("imghaikei.png");
-    opacity: 1;
-  }
-  100%{
-    opacity: 0;
-  }
-}
 
 
 .concept-wrapper::before {
