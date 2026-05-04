@@ -81,28 +81,28 @@
 
 @keyframes fadeBg {
   0% {
-    background-image: url("../img/item1.png");
+    background-image: url("item1.png");
     opacity: 1;
   }
   25% {
     opacity: 0;
   }
   26% {
-    background-image: url("../img/item2.png");
+    background-image: url("item2.png");
     opacity: 1;
   }
   50% {
     opacity: 0;
   }
   51% {
-    background-image: url("../img/item3.png");
+    background-image: url("item3.png");
     opacity: 1;
   }
   75% {
     opacity: 0;
   }
   76% {
-    background-image: url("../img/imghaikei.png");
+    background-image: url("imghaikei.png");
     opacity: 1;
   }
   100%{
